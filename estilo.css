@@ -10,6 +10,7 @@ html,
 body,
 .capa {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -100,7 +101,7 @@ nav.navbar-transparente {
     background: white;
 }
 
-/* -- Sections --*/
+/* -- Secao Servicos --*/
 #servicos{
     background: white;
     padding-top: 20px;
@@ -110,6 +111,18 @@ nav.navbar-transparente {
 .albuns{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* -- Secao Recursos --*/
+#recursos{  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 /* ========================= Tipografia ======================== */
 
@@ -134,4 +147,8 @@ h3{
 
 #servicos h2, #servicos h3{
     color: #7c25f8;
+}
+
+#recursos h3{
+    color: #9bf0e1;
 }
