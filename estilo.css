@@ -1,35 +1,109 @@
-.img-logo{
-	height: 40px;
-	width: 132px;
-	display: block;
-	background: url('imagens/spotify.svg') no-repeat;
-	background-size: contain;
-	color: transparent;
+/*
+*
+* @author Jamilton Damasceno
+* @version 0.1
+*/
+
+/* ========================= layout ======================== */
+
+html,
+body,
+.capa {
+    height: 100%;
+}
+
+body {
+
+    background: url('imagens/capa.png'),
+    url('imagens/ruido.png;'),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
 
 }
 
-nav.navbar-transparente{
-	padding: 15px 0px;
-	background: rgba(0,0,0,0.6);
-	border: none;
+/* -- Barra de navegação -- */
+
+.img-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
 }
 
-.navbar-brand{
-
-padding: 5px 15px;
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
 }
 
-.divisor{
-	width: 1px;
-	height: 16px;
-	background: white;
-	margin: 16px 10px;
+.navbar-brand {
+    padding: 5px 15px;
 }
 
-.navbar-inverse .navbar-nav>li>a{
-	color: white;
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover{
-	color: #9bf0e1;
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #9bf0e1;
+}
+
+/* -- Imagem de Capa --*/
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* -- Botoes --*/
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+    background: #7c25f8;
+}
+
+.btn-roxo:hover{
+    background: #6207e3;
+    color: white;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+.btn-branco:hover{
+    color: black;
+    background: white;
+}
+/* ========================= Tipografia ======================== */
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -7px;
+    margin-bottom: 50px;
 }
