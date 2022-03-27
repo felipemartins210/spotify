@@ -10,4 +10,4 @@ As a study I cloned a version of spottily web site.
 
 ## Demo
 
-[![Demo Spotify Clone](https://j.gifs.com/28qMZA.gif)](#)
+[![Demo Spotify Clone](https://github.com/felipemartins210/spotify/blob/master/demo-video.gif)](#)
